@@ -1,4 +1,5 @@
 import * as React from "react";
+import { DatabaseBackup } from "../node_modules/lucide-react/dist/lucide-react";
 
 type TitleProps = {
   text: string;
@@ -6,7 +7,12 @@ type TitleProps = {
 };
 
 export function Title({ text = "black" }: TitleProps) {
-  return <h1>{text}</h1>;
+  return (
+    <div>
+      <h1>{text}</h1>
+      <DatabaseBackup size={24} />
+    </div>
+  );
 }
 
 export default Title;

@@ -1,3 +1,4 @@
+import React from "react";
 import { DatabaseBackup } from "lucide-react";
 
 type TitleProps = {

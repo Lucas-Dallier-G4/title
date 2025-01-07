@@ -1,5 +1,5 @@
 import React from "react";
-import { DatabaseBackup } from "../node_modules/lucide-react/dist/lucide-react";
+import { DatabaseBackup } from "lucide-react";
 export function Title({ text = "black" }) {
     return (React.createElement("div", null,
         React.createElement("h1", null, text),

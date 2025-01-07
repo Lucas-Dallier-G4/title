@@ -1,10 +1,18 @@
 {
   "name": "shared-title-component",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/shared-ds.umd.js",
+  "module": "dist/shared-ds.es.js",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +21,11 @@
   "devDependencies": {
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
   },
   "dependencies": {
     "lucide-react": "^0.424.0"

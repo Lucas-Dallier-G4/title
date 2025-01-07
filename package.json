@@ -6,6 +6,7 @@
   "files": [
     "dist"
   ],
+  "types": "dist/types/index.d.ts",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
@@ -25,7 +26,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typescript": "^5.7.2",
-    "vite": "^6.0.7"
+    "vite": "^6.0.7",
+    "vite-plugin-dts": "^4.4.0"
   },
   "dependencies": {
     "lucide-react": "^0.424.0"

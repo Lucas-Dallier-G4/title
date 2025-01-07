@@ -1,4 +1,3 @@
-import * as React from "react";
 import { DatabaseBackup } from "../node_modules/lucide-react/dist/lucide-react";
 
 type TitleProps = {

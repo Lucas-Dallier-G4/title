@@ -1,4 +1,4 @@
-import { DatabaseBackup } from "../node_modules/lucide-react/dist/lucide-react";
+import { DatabaseBackup } from "lucide-react";
 
 type TitleProps = {
   text: string;
